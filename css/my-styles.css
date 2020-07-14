@@ -1,0 +1,89 @@
+@media screen and (min-width: 800px) {
+body{
+    margin: 0;
+    font-family: Arial MT;
+    background-color: #000000;
+}
+.first-screen{
+    display: block;
+    height: 80vh;
+    width: 95vw;
+}
+#main-title{
+    width: 600px;
+    font-size: 73px;
+    font-weight: 400;
+}
+#title{
+    margin-left: 8%;
+    margin-top: 6%;
+    color: #ffffff;
+}
+#main-text{
+    position: absolute;
+    margin-left: 11%;
+    width: 800px;
+    font-size: 43px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#picture-one{
+    position: absolute;
+    margin-left: 67%;
+}
+
+#picture-two{
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 18%;
+}
+.second-title-module{
+    position: relative;
+    margin-left: 40%;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    width: 430px;
+    padding: 3px;
+}
+#second-title{
+    background: black;
+}
+#about-title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial - Bold MT;
+    font-size: 40px;
+    font-weight: 400;   
+    text-transform: uppercase;
+    outline : 0;
+    -moz-outline : 0;
+    border : 0;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#about-me{
+    position: absolute;
+    color: white;
+    width: 814px;
+    height: 526px;
+    font-family: Arial MT;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#about-me-pic{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 15%;
+}
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: yellow;
+    }
+}

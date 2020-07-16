@@ -226,6 +226,83 @@ body{
 #second-third-lang{
     margin-right: 20%;
 }
+.fourth-screen{
+    display: block;
+    height: 90vh;
+    width: 95vw;
+}
+.contact-title-module{
+    position: relative;
+    margin-left: 40%;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    width: 430px;
+    padding: 3px;
+    margin-top: 2%;
+}
+#contact-title-wrap{
+    background: black;
+}
+#contact-title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial - Bold MT;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    outline : 0;
+    -moz-outline : 0;
+    border : 0;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#linkedIn-profile{
+    margin-top: 5%;
+    margin-left: 43%;
+}
+#github-profile{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+#twitter-img{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#email-img{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 43%;
+}
+#p-email{
+    margin-top: 7%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.fifth-screen{
+    width: 95vw;
+    height: 50vh;
+}
+#write-title{
+    color: white;
+    font-size: 25px;
+    margin-left: 43%;
+}
+.write-form{
+    margin-left: 47%;
+    margin-top: 5%;
+}
+#paper-plane{
+    width: 150px;
+    height: 150px;
+}
 }
 @media screen and (max-width: 800px) {
     body {

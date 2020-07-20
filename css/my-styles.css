@@ -79,7 +79,7 @@ body{
 #about-me-pic{
     position: absolute;
     margin-left: 60%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 .second-screen{
     display: block;
@@ -226,6 +226,9 @@ body{
 #second-third-lang{
     margin-right: 20%;
 }
+#first-lang{
+    margin-right: 45%;
+}
 .fourth-screen{
     display: block;
     height: 90vh;
@@ -302,6 +305,44 @@ body{
 #paper-plane{
     width: 150px;
     height: 150px;
+}
+.achievements-title-module{
+    position: relative;
+    margin-left: 40%;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    width: 430px;
+    padding: 3px;
+    margin-top: 2%;
+}
+#achievements-title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial - Bold MT;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    outline : 0;
+    -moz-outline : 0;
+    background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#achievements-title-wrap{
+    background: black;
+}
+.sixth-screen{
+    width: 95vw;
+    height: 80vh;
+}
+#pic{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 20%;
 }
 }
 @media screen and (max-width: 800px) {

@@ -7,11 +7,10 @@ body{
 .first-screen{
     display: block;
     height: 90vh;
-    width: 99vw;
-    border-bottom: 5px solid white;
-    border-radius: 0 500px 50%/500px 0;
-    padding: 10px;
-    box-shadow: 800px 250px white;
+    width: 99.1vw;
+    background-image: url("/images/AboutMe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #main-title{
     width: 600px;
@@ -234,10 +233,6 @@ body{
 .third-screen{
     width: 99vw;
     height: 85vh;
-    border-top: 5px solid white;
-    border-radius: 50%/500px 0 0 0;
-    padding: 10px;
-    box-shadow: -1000px 0 0 0 white;
 }
 .project-header{
     position: relative;

@@ -6,11 +6,8 @@ body{
 }
 .first-screen{
     display: block;
-    height: 90vh;
+    height: 80vh;
     width: 99.1vw;
-    background-image: url("/images/AboutMe.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #main-title{
     width: 600px;
@@ -115,7 +112,7 @@ body{
 .second-screen{
     display: block;
     height: 90vh;
-    width: 99vw;
+    width: 99.1vw;
     background: white;
 }
 #project-title{
@@ -373,8 +370,9 @@ body{
     background: black;
 }
 .sixth-screen{
-    width: 99vw;
+    width: 99.1vw;
     height: 85vh;
+    background: #ffffff;
 }
 #pic{
     width: 450px;
@@ -384,7 +382,7 @@ body{
 }
 #p-achievements{
     position: absolute;
-    color: white;
+    color: black;
     width: 814px;
     height: 526px;
     font-family: Arial MT;

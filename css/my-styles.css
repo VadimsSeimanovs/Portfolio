@@ -8,10 +8,12 @@ body{
     display: block;
     height: 90vh;
     width: 99.1vw;
+    /*
     border-bottom: 0 hidden white;
     border-radius: 0 0 50%/400px 0;
     padding: 10px;
     box-shadow: 0 400px white;
+     */
 }
 #main-title{
     width: 600px;
@@ -118,10 +120,12 @@ body{
     height: 90vh;
     width: 99.1vw;
     background: white;
+    /*
     border: 0 hidden black;
     border-radius: 500px 0 0 0;
     padding: 10px;
     box-shadow: -500px 0 black;
+     */
 }
 #project-title{
     position: relative;
@@ -238,10 +242,12 @@ body{
 .third-screen{
     width: 99.1vw;
     height: 85vh;
+    /*
     border-top: 10px hidden #ffffff;
     border-radius: 100px 100px 100px 100px;
     padding: 10px;
     box-shadow: 0 -100px white;
+     */
 }
 .project-header{
     position: relative;
@@ -290,10 +296,12 @@ body{
     display: block;
     height: 100vh;
     width: 99.1vw;
+    /*
     border: 0 hidden #ffffff;
     border-radius: 0 500px 0 0;
     padding: 10px;
     box-shadow: 500px 0 #ffffff;
+     */
 }
 .contact-title-module{
     position: relative;
@@ -389,10 +397,12 @@ body{
     width: 99.1vw;
     height: 85vh;
     background: #ffffff;
+    /*
     border: 0 hidden black;
     border-radius: 500px 0 0 0;
     padding: 10px;
     box-shadow: -500px 0 black;
+     */
 }
 #pic{
     width: 450px;

@@ -1,6 +1,6 @@
 <?php require('template/header.phtml');
 ?>
-<body data-hijacking="on" data-animation="gallery" onwheel="test(event)">
+<body data-hijacking="on" data-animation="gallery" onwheel="mouseScroll(event)">
 <main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/scroll.js"></script>
@@ -20,6 +20,8 @@
         });
     </script>
     <div class = "first-screen" id="first-screen">
+        <div class="empty">
+        </div>
         <div id= "title">
             <header id= "main-title">Vadims Seimanovs</header>
         </div>
@@ -33,6 +35,9 @@
         </div>
         <div id="picture-two">
             <img src="/images/RubiksCube.png" alt="cube">
+        </div>
+        <div id="underline-img">
+            <img class= "background-image" src="/images/AboutMe.png" alt="Outline">
         </div>
     </div>
     <div class = "second-screen" id="second-screen">
@@ -144,6 +149,9 @@
         </div>
     </div>
     <div class = "sixth-screen" id="sixth-screen">
+        <div class = "top-image">
+            <img src="/images/Contact.png" alt="top-image" class="contact-img">
+        </div>
         <div class = "achievements-title-module">
             <div id="achievements-title-wrap">
                 <a href="#sixth-screen">

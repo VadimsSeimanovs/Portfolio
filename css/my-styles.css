@@ -1,8 +1,11 @@
 @media screen and (min-width: 800px) {
+html{
+}
 body{
     margin: 0;
     font-family: Arial MT;
     background-color: #000000;
+    overflow: hidden;
 }
 .first-screen{
     display: block;

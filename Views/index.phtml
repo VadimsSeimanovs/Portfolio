@@ -1,6 +1,6 @@
 <?php require('template/header.phtml');
 ?>
-<body data-hijacking="on" data-animation="gallery">
+<body data-hijacking="on" data-animation="gallery" onwheel="test(event)">
 <main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/scroll.js"></script>
@@ -18,8 +18,6 @@
                 }
             });
         });
-        screenScroll();
-        getHeight();
     </script>
     <div class = "first-screen" id="first-screen">
         <div id= "title">

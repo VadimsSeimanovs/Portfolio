@@ -55,6 +55,7 @@ body{
     color: #ffffff;
 }
 #picture-one{
+    margin-top: -2%;
     position: absolute;
     margin-left: 67%;
 }

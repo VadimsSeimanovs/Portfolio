@@ -56,12 +56,6 @@ function mouseScroll(event) {
                 currentScreen = "sixth-screen";
             }, 500)
         }
-        if (event.deltaY <= 25 && currentScreen === "fourth-screen"){
-            setTimeout(function () {
-                document.getElementById("fourth-screen").scrollIntoView(true);
-                currentScreen = "fourth-screen";
-            }, 500)
-        }
     })
 }
 /*

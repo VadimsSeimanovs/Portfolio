@@ -2,28 +2,13 @@
 ?>
 <body data-hijacking="on" data-animation="gallery" onwheel="mouseScroll(event)">
 <main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/js/scroll.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("a").on('click', function(event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function(){
-                        window.location.hash = hash;
-                    });
-                }
-            });
-        });
-    </script>
     <div class = "first-screen" id="first-screen">
         <div class="empty">
         </div>
         <div id= "title">
-            <header id= "main-title">Vadims Seimanovs</header>
+            <h1 class="main-title" id= "main-title">
+               Vadims Seimanovs
+            </h1>
         </div>
         <div id = "main-text">
             <p>
@@ -195,6 +180,25 @@
             <div class="github-card" data-github="VadimsSeimanovs" data-width="400" data-height="150" data-theme="default"></div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="/js/scroll.js"></script>
+    <script src="/js/style.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </main>
 </body>
 <?php require('template/footer.phtml');

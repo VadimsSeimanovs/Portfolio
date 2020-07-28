@@ -28,16 +28,17 @@ body{
     box-shadow: 0 400px white;
      */
 }
-#main-title{
+.main-title{
+    display: inline-block;
     margin-left: 8%;
     width: 600px;
     font-size: 73px;
     font-weight: 400;
-    background-image: linear-gradient(to right, #ffffff, #e09400, #fffb07);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: flow 20s ease-in-out infinite;
     background-size: 300%;
+}
+.main-title .letter{
+    display: inline-block;
+    color: white;
 }
 @-webkit-keyframes flow {
     0%{

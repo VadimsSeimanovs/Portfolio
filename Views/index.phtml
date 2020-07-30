@@ -2,6 +2,10 @@
 ?>
 <body data-hijacking="on" data-animation="gallery" onwheel="mouseScroll(event)">
 <main>
+    <div>
+        <button class="up-screen arrow up" onclick="pageUpCheck()" id="up-screen"> </button>
+        <button class="down-screen arrow down" onclick="pageDownCheck()" id="down-screen"></button>
+    </div>
     <div class = "first-screen" id="first-screen">
         <div class="empty">
         </div>
@@ -133,13 +137,13 @@
             <img src="/images/Project.png" alt="Projects">
         </div>
     </div>
-    <div class = "sixth-screen" id="sixth-screen">
-        <div class = "top-image">
-            <img src="/images/Contact.png" alt="top-image" class="contact-img">
+    <div class = "fourth-screen" id="fourth-screen">
+        <div id = "top-image">
+
         </div>
         <div class = "achievements-title-module">
             <div id="achievements-title-wrap">
-                <a href="#sixth-screen">
+                <a href="#fourth-screen">
                     <button id = "achievements-title">
                         Achievements
                     </button>
@@ -155,10 +159,21 @@
             <img src="/images/achievements.png" alt="Hack-win">
         </div>
     </div>
-    <div class = "fourth-screen" id="fourth-screen">
+    <div class="fifth-screen" id="fifth-screen">
+        <div class = "fifth-title-module">
+            <div id="fifth-title-wrap">
+                <a href="#sixth-screen">
+                    <button id = "skills-title">
+                        Skills
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class = "sixth-screen" id="sixth-screen">
         <div class = "contact-title-module">
             <div id="contact-title-wrap">
-                <a href="#fourth-screen">
+                <a href="#sixth-screen">
                     <button id = "contact-title">Contact</button>
                 </a>
             </div>

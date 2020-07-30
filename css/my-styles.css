@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1025px) {
 html{
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -498,9 +498,4 @@ body{
 #fifth-title-wrap{
     background: black;
 }
-}
-@media screen and (max-width: 800px) {
-    body {
-        background-color: yellow;
-    }
 }

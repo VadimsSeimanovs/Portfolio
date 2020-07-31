@@ -1,4 +1,8 @@
 @media screen and (min-width: 1025px) {
+@font-face {
+    font-family: "Arial - Bold MT";
+    src("/fonts/Arial-BoldMT.otf") format("opentype"),
+}
 html{
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -95,6 +99,7 @@ body{
     position: absolute;
     margin-left: 11%;
     width: 800px;
+    text-align: justify-all;
     font-size: 43px;
     font-weight: 400;
     color: #ffffff;
@@ -166,6 +171,7 @@ body{
     font-weight: 400;
     margin-left: 7%;
     margin-top: 5%;
+    text-align: justify;
 }
 #about-me-pic{
     position: absolute;
@@ -455,6 +461,7 @@ body{
     font-weight: 400;
     margin-left: 7%;
     margin-top: 5%;
+    text-align: justify;
 }
 #achievements-pic{
     position: absolute;
@@ -512,6 +519,7 @@ body{
     position: absolute;
     color: white;
     font-size: 28px;
+    text-align: justify;
 }
 #p-info-right{
     margin-right: 6%;
@@ -521,5 +529,6 @@ body{
     color: white;
     font-size: 28px;
     margin-top: -22%;
+    text-align: justify;
 }
 }

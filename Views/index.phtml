@@ -1,6 +1,6 @@
 <?php require('template/header.phtml');
 ?>
-<body data-hijacking="on" data-animation="gallery" onwheel="mouseScroll(event)">
+<body data-hijacking="on" data-animation="gallery" onwheel="mouseScroll(event)" xmlns="http://www.w3.org/1999/html">
 <main>
     <div>
         <button class="up-screen arrow up" onclick="pageUpCheck()" id="up-screen"> </button>
@@ -168,6 +168,20 @@
                     </button>
                 </a>
             </div>
+        </div>
+        <div id="chart-info">
+            <p id = "p-info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere, sapien eget elementum congue, dui quam feugiat ante, at bibendum risus nibh vel mi. Ut aliquam dapibus tortor, et mollis leo rhoncus pellentesque. Integer blandit nec ante at commodo. Vivamus at bibendum tellus, vel lobortis libero. Quisque ut augue fringilla.
+            </p>
+        </div>
+        <div class="chart">
+            <canvas id="my-skills" class="my-skills""></canvas>
+            <script type="text/javascript" src="/js/myChart.js"></script>
+        </div>
+        <div id="chart-info-right">
+            <p id = "p-info-right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere, sapien eget elementum congue, dui quam feugiat ante, at bibendum risus nibh vel mi. Ut aliquam dapibus tortor, et mollis leo rhoncus pellentesque. Integer blandit nec ante at commodo. Vivamus at bibendum tellus, vel lobortis libero. Quisque ut augue fringilla.
+            </p>
         </div>
     </div>
     <div class = "sixth-screen" id="sixth-screen">

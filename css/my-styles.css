@@ -15,7 +15,7 @@ body{
     margin: 0;
     font-family: Arial MT;
     background-color: #000000;
-    overflow: hidden
+    /*overflow: hidden;*/
 }
 .up-screen{
     z-index: 1;
@@ -183,6 +183,8 @@ body{
     height: 90vh;
     width: 100vw;
     background: white;
+    border-bottom: black solid 3px;
+    border-radius: 0 0 300px 300px;
 }
 #project-title{
     position: relative;
@@ -231,6 +233,7 @@ body{
     background: black;
 }
 .project-text{
+    width: 100%;
     color: white;
     font-family: Arial - Bold MT;
     font-size: 20px;
@@ -247,6 +250,7 @@ body{
     display: flex;
 }
 #second-project-wrap{
+    width: 100%;
     height: 100%;
     background: black;
 }
@@ -356,7 +360,6 @@ body{
     background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
     width: 430px;
     padding: 3px;
-    margin-top: 2%;
 }
 #contact-title-wrap{
     background: black;
@@ -442,7 +445,7 @@ body{
 }
 .fourth-screen{
     width: 100vw;
-    height: 85vh;
+    height: 91vh;
     background: #ffffff;
 }
 #pic{
@@ -470,7 +473,7 @@ body{
 }
 .fifth-screen{
     width: 100vw;
-    height: 85vh;
+    height: 72vh;
     background-color: black;
 }
 .fifth-title-module{
@@ -479,7 +482,6 @@ body{
     background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
     width: 430px;
     padding: 3px;
-    margin-top: 3%;
 }
 #skills-title{
     position: relative;
@@ -499,20 +501,20 @@ body{
     -webkit-text-fill-color: transparent;
     }
 .fifth-title-module:hover,
-#fifth-title:hover{
+#skills-title:hover{
     background-image: linear-gradient(-101deg, #3237fb 0%, #10a2ff 23%, #3237fb 48%, #10a2ff 76%, #5238f0 100%);
 }
 #fifth-title-wrap{
     background: black;
 }
 .chart{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 22%;
     width: 60%;
     height: 60%;
 }
 #p-info{
-    margin-top: 9%;
+    margin-top: 6%;
     margin-left: 8%;
     float: left;
     width: 500px;
@@ -530,5 +532,24 @@ body{
     font-size: 28px;
     margin-top: -22%;
     text-align: justify;
+}
+.img-contact{
+    width: 100vw;
+    height: 200px;
+}
+.skill-img{
+    width: 100vw;
+    height: 300px;
+}
+.skill-bg{
+    position: absolute;
+    margin-top: -14%;
+}
+.achievements-bg{
+    margin-top: 70px;
+}
+.achievements-img{
+    width: 100vw;
+    height: 200px;
 }
 }

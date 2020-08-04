@@ -1,4 +1,4 @@
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1900px) {
 @font-face {
     font-family: "Arial - Bold MT";
     src("/fonts/Arial-BoldMT.otf") format("opentype"),
@@ -530,7 +530,7 @@ body{
     position: relative;
     color: white;
     font-size: 28px;
-    margin-top: -22%;
+    margin-top: -18%;
     text-align: justify;
 }
 .img-contact{

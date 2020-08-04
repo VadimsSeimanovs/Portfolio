@@ -32,11 +32,9 @@
     <div class = "second-screen" id="second-screen">
         <div class = "second-title-module">
             <div id = "second-title">
-                <a href="#second-screen">
-                    <button id = "about-title">
-                        ABOUT ME
-                    </button>
-                </a>
+                <button id = "about-title" onclick="buttonScroll('second-screen')">
+                    ABOUT ME
+                </button>
             </div>
         </div>
         <div id = "about-me">
@@ -51,11 +49,9 @@
     <div class = "third-screen" id="third-screen">
         <div class = "projects-title-module">
             <div id="project-title-wrap">
-                <a href="#third-screen">
-                    <button id = "project-title">
-                        Projects
-                    </button>
-                </a>
+                <button id = "project-title" onclick="buttonScroll('third-screen')">
+                    Projects
+                </button>
             </div>
         </div>
         <div id = "first-project-module">
@@ -143,11 +139,9 @@
     <div class = "fourth-screen" id="fourth-screen">
         <div class = "achievements-title-module">
             <div id="achievements-title-wrap">
-                <a href="#fourth-screen">
-                    <button id = "achievements-title">
-                        Achievements
-                    </button>
-                </a>
+                <button id = "achievements-title"  onclick="buttonScroll('fourth-screen')">
+                    Achievements
+                </button>
             </div>
         </div>
         <div id = "p-achievements">
@@ -165,11 +159,9 @@
         </div>
         <div class = "fifth-title-module">
             <div id="fifth-title-wrap">
-                <a href="#sixth-screen">
-                    <button id = "skills-title">
-                        Skills
-                    </button>
-                </a>
+                <button id = "skills-title"  onclick="buttonScroll('fifth-screen')">
+                    Skills
+                </button>
             </div>
         </div>
         <div id="chart-info">
@@ -191,9 +183,9 @@
     <div class = "sixth-screen" id="sixth-screen">
         <div class = "contact-title-module">
             <div id="contact-title-wrap">
-                <a href="#sixth-screen">
-                    <button id = "contact-title">Contact</button>
-                </a>
+                <button id = "contact-title"  onclick="buttonScroll('sixth-screen')">
+                    Contact
+                </button>
             </div>
         </div>
         <div id = "linkedIn-profile">
@@ -217,21 +209,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="/js/scroll.js"></script>
     <script src="/js/style.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("a").on('click', function(event) {
-                if (this.hash !== "") {
-                    event.preventDefault();
-                    var hash = this.hash;
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function(){
-                        window.location.hash = hash;
-                    });
-                }
-            });
-        });
-    </script>
 </main>
 </body>
 <?php require('template/footer.phtml');

@@ -32,7 +32,7 @@
     <div class = "second-screen" id="second-screen">
         <div class = "second-title-module">
             <div id = "second-title">
-                <button id = "about-title" onclick="buttonScroll('second-screen')">
+                <button id = "about-title" onclick="buttonScroll('second-screen'); changeButton('about-title')">
                     ABOUT ME
                 </button>
             </div>
@@ -90,7 +90,7 @@
                     Android Game
                 </header>
                 <p class = "project-text">
-                    Android development gave me much more then learning Java programming language but also gave me experience of using Android Studio and
+                    Android development gave me much more then learning Java programming language but also gave me experience of using Android Studio and demonstrate the use of emulators. One of the ways to test the stuff that I have done is through the use of emulators which was a new experience to me.
                 </p>
                 <div class="project-date" id="second-date">
                     <p class="p-date">
@@ -146,7 +146,7 @@
         </div>
         <div id = "p-achievements">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus libero, posuere eu interdum nec, commodo non eros. Donec tincidunt risus in eleifend maximus. Ut bibendum sit amet massa sed auctor. Duis in neque non ipsum eleifend laoreet. Curabitur volutpat maximus metus, ut gravida est pellentesque sit amet.
+                One of my biggest achievements was when me and the team that I was a part of went to Hack Manchester. Hack Manchester is a competition between other teams to create something that meets clients requirements. There were several clients to pick from which gave us wide options and ideas on the project that we would like to do. We chose to make a system that will run on the background of childs computer and detect any bad behavior that they are preforming while socilising through social media or any other part os the internet. The data will be then sent to the webpage which parents will have the admin permissions and allow them to minot what they have been involved in.
             </p>
         </div>
         <div id = "achievements-pic">
@@ -166,16 +166,16 @@
         </div>
         <div id="chart-info">
             <p id = "p-info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere, sapien eget elementum congue, dui quam feugiat ante, at bibendum risus nibh vel mi. Ut aliquam dapibus tortor, et mollis leo rhoncus pellentesque. Integer blandit nec ante at commodo. Vivamus at bibendum tellus, vel lobortis libero. Quisque ut augue fringilla.
+                The chart represents the skills that I have gathered over the past several years of learning the Computer Science. The skills I have distributed based on the projects that I have been part of and the knowledge that I have been given from the University.
             </p>
         </div>
         <div class="chart">
-            <canvas id="my-skills" class="my-skills""></canvas>
+            <canvas id="my-skills" class="my-skills"></canvas>
             <script type="text/javascript" src="/js/myChart.js"></script>
         </div>
         <div id="chart-info-right">
             <p id = "p-info-right">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere, sapien eget elementum congue, dui quam feugiat ante, at bibendum risus nibh vel mi. Ut aliquam dapibus tortor, et mollis leo rhoncus pellentesque. Integer blandit nec ante at commodo. Vivamus at bibendum tellus, vel lobortis libero. Quisque ut augue fringilla.
+                Top skills have been distributed based on how much I know and the time I practice one or another skill. The <u>Others</u> are the skills that I have met and practiced before however I have not taken them skills to another level. The Others are: <b>MySQL, NodeJS, CSS, HTML.</b>
             </p>
         </div>
     </div>
@@ -209,6 +209,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="/js/scroll.js"></script>
     <script src="/js/style.js"></script>
+    <script src="/js/button-style.js"></script>
 </main>
 </body>
 <?php require('template/footer.phtml');

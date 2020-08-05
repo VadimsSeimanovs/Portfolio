@@ -1,4 +1,4 @@
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1800px) {
 @font-face {
     font-family: "Arial - Bold MT";
     src("/fonts/Arial-BoldMT.otf") format("opentype"),
@@ -457,13 +457,13 @@ body{
 #p-achievements{
     position: absolute;
     color: black;
-    width: 814px;
+    width: 1200px;
     height: 526px;
     font-family: Arial MT;
     font-size: 40px;
     font-weight: 400;
-    margin-left: 7%;
-    margin-top: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
     text-align: justify;
 }
 #achievements-pic{

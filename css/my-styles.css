@@ -108,9 +108,11 @@ body{
     margin-top: -2%;
     position: absolute;
     margin-left: 67%;
+    -webkit-user-drag: none;
 }
 
 #picture-two{
+    -webkit-user-drag: none;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -128,6 +130,7 @@ body{
     margin-top: -20%;
     height: 600px;
     width: 100vw;
+    -webkit-user-drag: none;
 }
 .second-title-module{
     position: relative;

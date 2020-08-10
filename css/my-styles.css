@@ -1,4 +1,4 @@
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1681px) {
 @font-face {
     font-family: "Arial - Bold MT";
     src("/fonts/Arial-BoldMT.otf") format("opentype"),
@@ -24,7 +24,7 @@ body{
     height: 50px;
     border: 3px solid white;
     margin-left: 95%;
-    margin-top: 22%;
+    top: 40%;
 }
 
 .down-screen{
@@ -34,8 +34,8 @@ body{
     height: 50px;
     border: 3px solid black;
     margin-left: 95%;
-    margin-top: 25%;
     background-color: black;
+    top: 45%;
 }
 .arrow.up:before{
     position: absolute;
@@ -517,7 +517,6 @@ body{
     height: 60%;
 }
 #p-info{
-    margin-top: 6%;
     margin-left: 8%;
     float: left;
     width: 500px;
@@ -533,7 +532,6 @@ body{
     position: relative;
     color: white;
     font-size: 28px;
-    margin-top: -18%;
     text-align: justify;
 }
 .img-contact{

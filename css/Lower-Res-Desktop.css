@@ -1,4 +1,4 @@
-@media screen and (min-width: 1025px) and (max-width: 1690px){
+@media screen and (min-width: 1025px) and (max-width: 1680px){
     @font-face {
         font-family: "Arial - Bold MT";
     src("/fonts/Arial-BoldMT.otf") format("opentype"),
@@ -24,7 +24,7 @@
         height: 50px;
         border: 3px solid white;
         margin-left: 95%;
-        margin-top: 22%;
+        top: 40%;
     }
 
     .down-screen{
@@ -34,8 +34,8 @@
         height: 50px;
         border: 3px solid black;
         margin-left: 95%;
-        margin-top: 25%;
         background-color: black;
+        top: 45%;
     }
     .arrow.up:before{
         position: absolute;
@@ -100,7 +100,7 @@
         margin-left: 11%;
         width: 800px;
         text-align: justify-all;
-        font-size: 43px;
+            font-size: 43px;
         font-weight: 400;
         color: #ffffff;
     }
@@ -108,9 +108,11 @@
         margin-top: -2%;
         position: absolute;
         margin-left: 67%;
+        -webkit-user-drag: none;
     }
 
     #picture-two{
+        -webkit-user-drag: none;
         animation-name: floating;
         animation-duration: 3s;
         animation-iteration-count: infinite;
@@ -128,6 +130,7 @@
         margin-top: -20%;
         height: 600px;
         width: 100vw;
+        -webkit-user-drag: none;
     }
     .second-title-module{
         position: relative;
@@ -219,7 +222,7 @@
         background: black;
     }
     #first-project-module{
-        margin-top: 2%;
+        margin-top: 4%;
         position: relative;
         margin-left: 6%;
         background-image: linear-gradient(to right, #ffff00 0%, #ffcc00 100%);
@@ -276,7 +279,7 @@
         animation-timing-function: ease-in-out;
         position: absolute;
         margin-left: 75%;
-        margin-top: -23%;
+        margin-top: -31%;
     }@keyframes floating {
          from { transform: translate(0,  0px); }
          65%  { transform: translate(0, 20px); }
@@ -457,13 +460,13 @@
     #p-achievements{
         position: absolute;
         color: black;
-        width: 814px;
+        width: 800px;
         height: 526px;
         font-family: Arial MT;
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 400;
-        margin-left: 7%;
-        margin-top: 5%;
+        margin-left: 2%;
+        margin-top: 2%;
         text-align: justify;
     }
     #achievements-pic{
@@ -514,7 +517,6 @@
         height: 60%;
     }
     #p-info{
-        margin-top: 6%;
         margin-left: 8%;
         float: left;
         width: 500px;
@@ -546,7 +548,7 @@
         margin-top: -14%;
     }
     .achievements-bg{
-        margin-top: 70px;
+        margin-top: -20px;
     }
     .achievements-img{
         width: 100vw;
